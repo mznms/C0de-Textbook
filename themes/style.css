@@ -120,25 +120,12 @@ section.src pre {
   bottom: 0;
 }
 
-/* section.src pre {
-  width: 30%;
+/*
+ * 絵文字はemojiクラスになる
+ * :not(.emoji)がないと絵文字にfloat:rightが適用されてしまう
+ */
+
+section.image-one img:not(.emoji) {
   float: right;
-  height: 100%;
-} */
-
-.title {
-  background-color: red;
-}
-
-.position-absolute {
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  background-color: blue;
-}
-
-section.image-one :not(footer) img {
-  width: 30%;
-  float: right;
+  margin-left: 20px;
 }
