@@ -32,6 +32,10 @@ ul ul {
   font-size: 0.9em;
 }
 
+li::marker {
+  color: #0184bc;
+}
+
 section.lead h1 {
   color: #012456;
   text-align: left;
@@ -109,7 +113,6 @@ footer {
 
 section.src p {
   width: 60%;
-  /* column-count: 2; */
 }
 
 section.src pre {
