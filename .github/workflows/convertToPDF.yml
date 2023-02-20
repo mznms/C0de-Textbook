@@ -7,5 +7,7 @@ jobs:
   marp:
     runs-on: ubuntu-latest
     steps:
-      - run: |-
+      # no checkout action so it will fail
+      - name: convert to pdf
+        run: |-
         npx -y @marp-team/marp-cli@2.2.2 ./git.md -o ./git.pdf
