@@ -8,7 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      # no checkout action so it will fail
       - name: convert to pdf
         run: |-
           npx -y @marp-team/marp-cli@latest ./git.md -o ./git.pdf --theme-set themes/style.css
