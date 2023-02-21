@@ -6,7 +6,7 @@
 # Note
 
 CI は Github actions により実現されています．
-`git.pdf`以外のファイルが変更された状態で push されると自動で`git.pdf`ファイルが`git.md`ファイルより生成されます．
+`git.pdf`以外のファイルが変更された状態で push されると自動で`git.pdf`ファイルや`git.[0-9]+.png`が`git.md`ファイルより生成されます．
 
 # About theme
 
