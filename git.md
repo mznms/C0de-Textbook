@@ -13,7 +13,7 @@ math: katex
 
 ![w:400 bg left:33%](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-<!-- footer : ![w:50px](./images/logo_c0de.png) 名古屋工業大学プログラミング部 C0de -->
+<!-- footer : ![w:50px](https://raw.githubusercontent.com/Key5n/C0de-Textbook/Key5n/content/images/logo_c0de.png) 名古屋工業大学プログラミング部 C0de -->
 
 ---
 
