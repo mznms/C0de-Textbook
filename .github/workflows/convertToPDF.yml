@@ -1,6 +1,13 @@
 name: Convert To PDF
 on:
   push:
+    # paths:
+    # - "themes/**"
+    # - "images/**"
+    # - "git.md"
+    paths-ignore:
+      - "*.pdf"
+
   workflow_dispatch:
 
 jobs:
