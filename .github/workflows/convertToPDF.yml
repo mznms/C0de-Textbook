@@ -1,5 +1,7 @@
 name: Convert To PDF
 on:
+  workflow_dispatch:
+  create:
   push:
     branches:
       - Key5n/main
@@ -12,8 +14,6 @@ on:
       - "*.pdf"
       - "*.png"
       - "*.jpeg"
-
-  workflow_dispatch:
 
 jobs:
   marp:
