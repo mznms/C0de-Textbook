@@ -6,6 +6,7 @@ on:
     branches:
       - Key5n/main
       - main
+      - mm/setup
     # paths:
     # - "themes/**"
     # - "images/**"
