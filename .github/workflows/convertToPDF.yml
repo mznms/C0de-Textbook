@@ -27,7 +27,8 @@ jobs:
         run: |-
           mkdir dist/
           npx -y @marp-team/marp-cli@latest ./git.md -o dist/git.pdf --theme-set themes/style.css
-          npx -y @marp-team/marp-cli@latest --images png git.md -o dist/ --theme-set themes/style.css
+          cd dist/
+          npx -y @marp-team/marp-cli@latest --images png ../git.md --theme-set themes/style.css
 
       - name: push to the repo
         run: |-
