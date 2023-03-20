@@ -267,7 +267,7 @@ style: |
 <!-- _header: WSL への導入 -->
 
 - WSL 上の Ubuntu に Git を導入
-![w:480](./images/defanged_penguin.png)
+![w:264](./images/defanged_penguin.png)
   - WSL の導入から説明
     - やり方がわかる人やすでに WSL を導入済みの人はスキップすれば良い
 
