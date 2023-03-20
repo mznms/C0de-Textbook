@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: convert to pdf
         run: |-
-          npx -y @marp-team/marp-cli@latest ./git.md -o git.pdf --theme-set themes/style.css
+          npx -y @marp-team/marp-cli@latest ./git.md -o git.pdf --html --allow-local-files --theme-set themes/style.css
           npx -y @marp-team/marp-cli@latest --images png git.md --theme-set themes/style.css
 
       - name: push to the repo
