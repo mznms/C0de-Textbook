@@ -35,6 +35,15 @@ style: |
   img.table {
     height: 280px;
   }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    z-index: -1;
+  }
+  :root {
+    z-index: -10;
+  }
 ---
 
 <!-- _class: lead -->
@@ -45,7 +54,7 @@ style: |
 
 ![w:400 bg left:33%](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-<!-- _footer : ![w:50px no-shadow](./images/logo_c0de.png) 名古屋工業大学プログラミング部 C0de -->
+<!-- footer : ![w:50px no-shadow](./images/logo_c0de.png) 名古屋工業大学プログラミング部 C0de -->
 
 ---
 
