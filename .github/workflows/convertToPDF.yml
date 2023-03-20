@@ -26,9 +26,8 @@ jobs:
       - name: convert to pdf
         run: |-
           mkdir -p dist/
-          npx -y @marp-team/marp-cli@latest ./git.md -o dist/git.pdf --theme-set themes/style.css
-          cd dist/
-          npx -y @marp-team/marp-cli@latest --images png ../git.md --theme-set themes/style.css
+          npx -y @marp-team/marp-cli@latest --pdf ./git.md --html -o dist/git.pdf --theme-set themes/style.css
+          npx -y @marp-team/marp-cli@latest --images png -I ./ ./git.md -o ./dist/ --theme-set themes/style.css
 
       - name: push to the repo
         run: |-
