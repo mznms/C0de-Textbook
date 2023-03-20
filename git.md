@@ -294,10 +294,10 @@ style: |
   <ol><li value="4">Ubuntu のターミナルに <strong>username</strong> と <strong>password</strong> を入力</li><ul><li>好きに決めて良い</li></ul><ul><li>Windows のものと一致させる必要はない</li></ul></ol>
   <ol><li value="5">プリインストールされたパッケージを更新</li><ul><li>下記コマンドを順に実行</li><ul><li><strong>update</strong> で更新があるか確認</li><li><strong>upgrade</strong> で実際に更新</li></ul></ul></ol>
 
-    ```bash
-    sudo apt update
-    sudo apt upgrade
-    ```
+  ```bash
+  sudo apt update
+  sudo apt upgrade
+  ```
 
 ---
 
