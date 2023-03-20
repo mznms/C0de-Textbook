@@ -45,30 +45,7 @@ style: |
 
 ![w:400 bg left:33%](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-<<<<<<< HEAD
 <!-- _footer : ![w:50px no-shadow](./images/logo_c0de.png) 名古屋工業大学プログラミング部 C0de -->
-=======
-<!-- footer : ![w:50px](https://raw.githubusercontent.com/Key5n/C0de-Textbook/Key5n/content/images/logo_c0de.png) 名古屋工業大学プログラミング部 C0de -->
-
----
-
-<!-- _class: image-one -->
-
-<!-- _header: Gitとは -->
-
-# プログラムの履歴の記録
-
-![w:500px](https://raw.githubusercontent.com/Key5n/C0de-Textbook/Key5n/content/images/version-management.png)
-
-### できること
-
-- ファイル履歴をスマートに管理すること
-  - 右のような例をなくすことができる
-- 昔のバージョンに戻る
-  - 「この実装だめだわ:sob:。戻ろ」
-- スマートな共同開発
-  - ファイルを送りあったりしなくてよい
->>>>>>> cd206d8ba8e2f72835e258074a7f7bd4e6d46d7d
 
 ---
 
@@ -90,15 +67,7 @@ style: |
 
 <!-- _class: lead -->
 
-<<<<<<< HEAD
 # GitHubへの登録
-=======
-# ソースコード
-
-なんでやねん:sob:
-
-「わぁ...」「泣いちゃった！」「ふーーーん」「ってコト！？」
->>>>>>> cd206d8ba8e2f72835e258074a7f7bd4e6d46d7d
 
 ---
 
@@ -106,7 +75,6 @@ style: |
 
 <!-- _header: GitHubへの登録 -->
 
-<<<<<<< HEAD
 ![w:500](./images/github.com_.png)
 
 - ユーザ登録
@@ -628,16 +596,3 @@ provide shell access.
   - 最初は扱いにくい（断言）
   - 慣れるとあらゆる操作がコマンドラインを凌駕する速度になる
   - 「ファイルの一部のみ unstage」や「コンフリクト解消」のような込み入った操作もすべてキーボードで完結
-=======
-![](https://raw.githubusercontent.com/Key5n/C0de-Textbook/Key5n/content/images/linus.png)
-
-- フィンランド出身のプログラマ  
-  Linus が Linux カーネル開発のために作った分散型ソースコード管理システム
-  - じゃｋｌｓｄｊｆｌ
-    - どっこいしょーどっこいしょーどっこいしょーどっこいショーソーランソーランソーランソーランどこいしょー
-
-1. aid
-   1.asdjf
-1. asjdkf
-1. ajsd
->>>>>>> cd206d8ba8e2f72835e258074a7f7bd4e6d46d7d
