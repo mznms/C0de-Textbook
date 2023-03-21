@@ -568,7 +568,7 @@ provide shell access.
 
 - **その2「Sourcetree」**
 
-  - マルチプラットフォーム対応（Linux も）
+  - Windows と Macintosh で使用可能
   - GitHub に限らず対応
   - 日本語化も可能
   - Git GUI 操作の定番
